@@ -4,8 +4,7 @@ File:        /anaconda3/lib/python3.7/site-packages/ivy/vis/tree.py
 Docstring:  
 Window for showing a single tree, optionally with split overview
 and detail panes.
-
-The navigation toolbar at the bottom is provided by matplotlib
+1The navigation toolbar at the bottom is provided by matplotlib
 (http://matplotlib.sf.net/users/navigation_toolbar.html).  Its
 pan/zoom button and zoom-rectangle button provide different modes
 of mouse interaction with the figure.  When neither of these
@@ -19,4 +18,19 @@ buttons are checked, the default mouse bindings are as follows:
 * scroll up/down with 'd' key: pan view up/down
 * scroll up/down with 'e' key: pan view left/right
 * click on overview will center the detail pane on that region
+Default keybindings:
+
+* t: zoom out to full extent
+* +/-: zoom in/out
+
+Useful attributes and methods (assume an instance named *fig*):
+
+* fig.root - the root node (see [Node methods])
+* fig.highlight(s) - highlight and trace nodes with substring *s*
+* fig.zoom_clade(anc) - zoom to view node *anc* and all its descendants
+* fig.toggle_overview() - toggle visibility of the overview pane
+* fig.toggle_branchlabels() - ditto for branch labels
+* fig.toggle_leaflabels() - ditto for leaf labels
+* fig.decorate(func) - decorate the tree with a function (see
+  :ref:`decorating TreeFigures <decorating-trees>`)
 #enter q for quit
