@@ -46,7 +46,9 @@ Recommended for non-developers: use [conda](https://conda.io/miniconda.html) for
 
 
     ```bash
-    conda create -n ivy ipython jupyter numpy scipy matplotlib biopython pillow pyparsing lxml  # # here 'ivy' is just the environment name,if you want to install the mudule in the defalt path of Anaconda,then don't creat a new encironment
+    conda create -n ivy ipython jupyter numpy scipy matplotlib biopython pillow pyparsing lxml  
+    # here 'ivy' is just the environment name,if you want to install the mudule in the defalt 
+    # path of Anaconda,then don't creat a new encironment
     ```
   
 3. Activate the environment:
