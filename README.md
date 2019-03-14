@@ -60,7 +60,7 @@ Recommended for non-developers: use [conda](https://conda.io/miniconda.html) for
 3. Install `ivy`:
 
     ```bash
-    pip install https://github.com/rhr/ivy/zipball/master
+    pip install https://github.com/rhr/ivy/zipball/master # just install from here
     ```
   
 4. To update, uninstall it first:
