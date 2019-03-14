@@ -1,0 +1,22 @@
+TreeFigure
+String form: <ivy.vis.tree.TreeFigure object at 0x124d5c710>
+File:        /anaconda3/lib/python3.7/site-packages/ivy/vis/tree.py
+Docstring:  
+Window for showing a single tree, optionally with split overview
+and detail panes.
+
+The navigation toolbar at the bottom is provided by matplotlib
+(http://matplotlib.sf.net/users/navigation_toolbar.html).  Its
+pan/zoom button and zoom-rectangle button provide different modes
+of mouse interaction with the figure.  When neither of these
+buttons are checked, the default mouse bindings are as follows:
+
+* button 1 drag: select nodes - retrieve by calling fig.selected_nodes
+* button 3 drag: pan view
+* scroll up/down: zoom in/out
+* scroll up/down with Control key: zoom y-axis
+* scroll up/down with Shift key: zoom x-axis
+* scroll up/down with 'd' key: pan view up/down
+* scroll up/down with 'e' key: pan view left/right
+* click on overview will center the detail pane on that region
+#enter q for quit
